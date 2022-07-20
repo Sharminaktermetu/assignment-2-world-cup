@@ -30,6 +30,9 @@
     width: 400px;
     padding-left: 40px;
 }
+.top-text h3{
+    font-size: 60px;
+}
 .top-text p{
     margin-bottom: 45px;
 }
@@ -50,7 +53,7 @@
     display: flex;
 }
 .side-part{
-    width: 350px;
+    width: 500px;
     height: 210px;
     background-color: black;
     border-radius: 10px;
@@ -78,21 +81,49 @@
 .fild-part{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    flex-grow: 1;
-    justify-content: center;
     grid-row-gap: 25px;
     
 }
+.fild-part img{
+    width: 100%;
+}
+
 .field{
-    margin-left: 10px;
-    border: 1px solid #e7e6e6;
+    margin-left: 25px;
     border-radius: 11px;
     height: 335px;
 }
-/* .card-text{
-    border: 1px solid gray;
-} */
-.fa-clock{
-    font-size: 20px;
-    color: rgb(36, 36, 9);
+
+@media only screen and (min-width:768px) and (max-width:992px){
+    .img-part {
+        width: 50%;
+    }
+    .top-text{
+        width: 50%;
+    }
+    .top-banner{
+        border-radius: 60px;
+    }
+    .two-part{
+        flex-direction: column;
+    }
+    .side-part{
+        background-color: #fff;
+        width: auto;
+        height: auto;
+        margin-bottom: 60px;
+    }
+    .side-part ul{
+        display: flex;
+        justify-content: center;
+        height: 0px;
+    }
+    .side-part ul li{
+        margin-left: 20px;
+        
+    }
+    .fild-part{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
 }
