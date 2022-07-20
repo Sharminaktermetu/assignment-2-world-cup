@@ -230,6 +230,12 @@ hr{
     .top-banner{
         border-radius: 60px;
     }
+    .top-text{
+        width: 50%;
+    }
+    .top-text h3 {
+        font-size: 30px;
+    }
     .two-part{
         flex-direction: column;
     }
