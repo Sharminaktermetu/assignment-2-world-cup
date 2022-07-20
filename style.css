@@ -183,7 +183,7 @@ section{
     background-color: tomato;
     color: white;
     border-radius: 4px;
-    visibility: hidden;
+    display: none;
 
 }
 
@@ -263,7 +263,7 @@ hr{
         grid-template-columns: repeat(2, 1fr);
     }
     .hidden-btn a{
-        visibility: visible;
+        display: inline;
     }
 
 }
